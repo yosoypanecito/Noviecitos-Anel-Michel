@@ -60,6 +60,26 @@ let soundBarsLottie = bodymovin.loadAnimation({
 
 let trackList = [
     {
+        name: "Piel canela",
+        artist: "Cuco",
+        path: "Piel canela.mp3",
+    },
+    {
+        name: "Ma Belle",
+        artist: "Michel",
+        path: "Ma Belle.mp3",
+    },
+    {
+        name: "Teamomuchote",
+        artist: "Michel",
+        path: "teamomuchote.mp3",
+    },
+    {
+        name: "Amor de siempre",
+        artist: "Cuco",
+        path: "Amor de siempre.mp3",
+    },
+    {
         name: "00:00",
         artist: "siddhartha",
         path: "00.mp3",
