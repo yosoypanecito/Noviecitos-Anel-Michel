@@ -3,6 +3,25 @@
     padding: 0;
 }
 
+body {
+  background-image: url('abra.PNG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  /* Add the following lines to make the image responsive on mobile devices */
+  background-position: center;
+  background-size: 100% auto;
+}
+
+/* Add a media query to adjust the image size on smaller screens */
+@media only screen and (max-width: 768px) {
+  body {
+    background-size: 100% auto;
+    background-position: center;
+  }
+}
+
 :root{
     --primary: #fff;
     --bg-envelope-color: #f5edd1;
