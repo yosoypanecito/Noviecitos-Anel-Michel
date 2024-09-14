@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.3/lottie_svg.min.js"></script>
+    <title>Anel y Michel</title>
+    <link rel="icon" href="tab-icon.png"/>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body style="font-family: 'Comic Neue';" class="relative">
+    <!-- MUSIC PLAYER -->
+    <div class="fixed left-6 bottom-6 z-10">
+        <div class="music-container relative bg-neutral-100 py-3 px-3 border-2 z-10 rounded-md border-black flex items-center">
+            <div class="toggle-player bg-neutral-100 border-2 border-black">
+                <img class="w-full" src="close.svg" alt="">
+            </div>
+            <div class="avatar absolute w-14">
+                <img class="w-full border-2 bg-white border-black rounded-md" src="pinkheart.svg" alt="">
+            </div>
+            <div class="player">
+                <div class="sound-bars-lottie">
+                    <div class="sound-bars"></div>
+                </div>
+                <div class="track-info -space-y-1">
+                    <div class="trackname">Only</div>
+                    <div class="trackartist">Track Artist</div>
+                </div>
+                <div class="track-nav">
+                    <div class="prev-track">
+                        <img class="w-7" src="backplayer.svg" alt="">
+                    </div>
+                    <div class="playpause-track">
+                        <img class="w-8" src="play.svg" alt="">
+                    </div>
+                    <div class="next-track">
+                        <img class="w-7" style="transform: rotate(180deg);" src="backplayer.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BACKGROUND -->
+    <div class="background">
+        <div class="one">
+            <img src="abra.PNG" alt="">
+            <div class="container">
+                <div class="envelope-wrapper">
+                    <div class="envelope">
+                        <div class="letter">
+                            <div class="text">
+                                <strong style="font-size: .85rem;">My dear and little princess.</strong>
+                                <p style="text-indent: 15px;">
+                                💖Holai, esto es una pagina para mi novia💫
+                                </p>
+                                <p style="text-indent: 15px;">
+                                    💌Solamente te digo cuanto te amito demasiado publicamente y crear esta pagina con contador de los dias y meses, eres una persona super especial para mi, a pesar de todos los problemas, permiteme siempre estar para ti, pase lo que pase💖💜...
+                                </p>
+                                <p class="love">I LOVE YOU SO MUCH MY GIRLFRIEND</p>
+                                <div class="pana">
+                                    <img src="heartarrow.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="heart"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FIRST CARD -->
+    <div class="w-full h-[100vh] z-0 relative">
+        <!-- BACKGROUND -->
+        <img class="w-full h-full object-cover" src="abra.PNG" alt="">
+        <!-- FIRST PAGE -->
+        <div class="absolute top-0 h-full flex items-center justify-center flex-col w-full">
+            <!-- FIRST CARD -->
+            <div id="window" class="bg-neutral-100 relative shadow-md hover:shadow-xl duration-150 hover:scale-105 rounded-md w-[34rem] flex justify-center flex-col border-2 border-black">
+                 <!-- GIFS -->
+                <div id="gif" class="absolute -top-20 -left-60">
+                    <img class="w-full -rotate-12" src="https://media.tenor.com/Xmr01nUr0I0AAAAi/cute-dog.gif" alt="">
+                </div>
+                <div id="gif" class="absolute -bottom-20 -left-60">
+                    <img class="w-full rotate-12" src="https://media.tenor.com/X3MIBBH6ZgMAAAAi/doglookinghungryandsnacking-dog.gif" alt="">
+                </div>
+                <div id="gif" class="absolute -top-20 -right-60">
+                    <img class="w-full rotate-3" src="https://media.tenor.com/xI8X94Z_emgAAAAi/puppy-dog.gif" alt="">
+                </div>
+                <div id="gif" class="absolute -bottom-20 -right-60">
+                    <img class="w-full -rotate-12" src="https://media.tenor.com/l5ebZnCiFtoAAAAi/dog-dog-pop.gif" alt="">
+                </div>
+                <div class="flex items-center px-1 py-1 justify-between w-full border-b-2 border-black">
+                    <div>
+                        <img class="w-5" src="back.svg" alt="">
+                    </div>
+                    <div>
+                        <h1 class="font-extrabold text-lg">Pequeña Princesita</h1>
+                    </div>
+                    <div>
+                        <img class="w-6" src="x.svg">
+                    </div>
+                </div>
+                <div class="relative border-b-2 border-black">
+                    <div class="absolute bottom-2 left-12 w-14">
+                        <img class="rotate-12 w-full" src="https://media.discordapp.net/attachments/989408543369199626/1274598709841363035/temp_image_FF23C0E7-0F30-450E-BC39-14582691F352.webp?ex=66c2d60d&is=66c1848d&hm=b6fcea507be4b6e195b8537b0f20cf524793971bb7e2cc6f675602bf63761470&=&format=webp&width=384&height=480" alt="">
+                    </div>
+                    <div class="absolute top-3 right-3 w-12">
+                        <img class="rotate-12 w-full" src="https://media.discordapp.net/attachments/989408543369199626/1274598707974770789/temp_image_ADFED57F-42FE-4FB7-A3F9-917377B3FFE1.webp?ex=66c2d60c&is=66c1848c&hm=160e16eef04a944da3e54121edc9ca432a7f24580295574aa05da7c8289b9258&=&format=webp&width=480&height=480" alt="">
+                    </div>
+                    <div class="absolute bottom-2 right-14 w-11">
+                        <img class="-rotate-12 w-full" src="https://media.discordapp.net/attachments/989408543369199626/1274598707131842631/temp_image_38B86DAB-EDDA-48F9-97C8-36134C90F993.webp?ex=66c2d60c&is=66c1848c&hm=2a902c6f1683a42535b99499ace77cee5787df3a501b89ca480e37f0ba4be2d4&=&format=webp&width=470&height=480" alt="">
+                    </div>
+                    <div class="absolute top-3 left-3 w-10">
+                        <img class="-rotate-12 w-full" src="https://media.discordapp.net/attachments/989408543369199626/1274598708222361653/temp_image_98456F4F-5055-4BE8-83F1-A2456A289D99.webp?ex=66c2d60c&is=66c1848c&hm=eb127d348aaed8277ef4c62fe33c12a343ab82b3daed5df6c8030820f1c1f6b3&=&format=webp&width=453&height=480" alt="">
+                    </div>
+                    <div class="text-center py-5">
+                        <h1 class="font-extrabold text-5xl">sobre lumita</h1>
+                        <p class="text-base">Estrellita/Panquesita/Lunita</p>
+                    </div>
+                </div>
+                <!-- IMAGES -->
+                <div class="flex justify-center">
+                    <div class="w-44 flex justify-center py-5 gap-3">
+                        <img class="w-40" src="https://media.discordapp.net/attachments/989408543369199626/1274599571569381409/612db360-6e3f-461c-bb34-9b1d67505702.jpg?ex=66e5c69a&is=66e4751a&hm=df2d9bf445c7bee94023b11f1a649741ab596fe3bbab78ba8f0730bec810910e&=&format=webp&width=241&height=473" alt="">
+                        <img class="w-40" src="https://media.discordapp.net/attachments/989408543369199626/1274598729428631622/temp_image_37E62BC6-C116-4B86-B333-5EC15BBBACEF.webp?ex=66e5c5d1&is=66e47451&hm=a5267da062a2335464d0122ceadbbbe79c2a0c3dadaf70ec55d5f70fb12937fe&=&format=webp&width=293&height=473" alt="">
+                        <img class="w-40" src="https://media.discordapp.net/attachments/989408543369199626/1284347478677913654/F7C80E2C-4688-42E9-A74A-969B931D5B1D.jpg?ex=66e64d4c&is=66e4fbcc&hm=24411682e0a76e5588cfd764199f5c41238a7642dcd44e2ac12f08c00cd51ff2&=&format=webp&width=266&height=473" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <!-- SECOND CARD -->
+    <div class="w-full h-[100vh] z-0 relative ">
+        <!-- BACKGROUND -->
+        <img class="w-full h-full object-cover" src="abra.PNG" alt="">
+        <!-- SECOND PAGE -->
+        <div class="absolute top-0 h-full flex items-center justify-center flex-col w-full">
+            <!-- SECOND CARD -->
+            <div id="window" class="bg-neutral-100 relative shadow-md hover:shadow-xl duration-150 hover:scale-105 rounded-md w-[34rem] flex justify-center flex-col border-2 border-black">
+                <!-- GIFS -->
+                <div id="gif" class="absolute -top-20 -left-60 w-40">
+                    <img class="w-full -rotate-6" src="https://media.tenor.com/ULt1QoO_tc0AAAAj/cat-vibe-vibe-cat.gif" alt="">
+                </div>
+                <div id="gif" class="absolute -bottom-20 -left-64 w-44">
+                    <img class="w-full -rotate-6" src="https://media.tenor.com/u56nhKZD24AAAAAi/catkiss-cat.gif" alt="">
+                </div>
+                <div id="gif" class="absolute -top-20 -right-64 w-44">
+                    <img class="w-full rotate-6" src="https://media.tenor.com/cqQ9eq9xIrgAAAAi/cat.gif" alt="">
+                </div>
+                <div id="gif" class="absolute -bottom-20 -right-64 w-40">
+                    <img class="w-full rotate-6" src="https://media.tenor.com/SI5tOTnHS34AAAAi/verycat-twitch-cat-twitch-emote.gif" alt="">
+                </div>
+                <div class="flex items-center px-1 py-1 justify-between w-full border-b-2 border-black">
+                    <div>
+                        <img class="w-5" src="back.svg" alt="">
+                    </div>
+                    <div>
+                        <h1 class="font-extrabold text-lg">historial noviecitos</h1>
+                    </div>
+                    <div>
+                        <img class="w-6" src="x.svg" alt="">
+                    </div>
+                </div>
+                <div class="relative border-b-2 border-black">
+                    <div class="absolute bottom-3 left-12 w-11">
+                        <img class="rotate-12 w-full" src="https://media.tenor.com/QTyNY_dDPk4AAAAj/kissing-kiss.gif" alt="">
+                    </div>
+                    <div class="absolute top-3 right-3 w-12">
+                        <img class="rotate-12 w-full" src="https://media.discordapp.net/attachments/989408543369199626/1274599607225286739/IMG_8867.png?ex=66e5c6a3&is=66e47523&hm=82427b1045ade9166e1a3d37db070461e522547835d646045c817be274efe4f6&=&format=webp&quality=lossless&width=265&height=473" alt="">
+                    </div>
+                    <div class="absolute bottom-2 right-14 w-12">
+                        <img class="-rotate-12 w-full" src="https://i.pinimg.com/originals/c5/c6/73/c5c673dc3cb4ebd03675713b984a25cd.gif" alt="">
+                    </div>
+                    <div class="absolute top-3 left-3 w-10">
+                        <img class="-rotate-12 w-full" src="https://media.discordapp.net/attachments/989408543369199626/1274604116261208206/91B5FD4B-8953-467A-BA36-942655F0FDC5.jpg?ex=66e5cad6&is=66e47956&hm=f54d12282b2a06fa07d740de490267410b42df60e9c95035760c1f0938029378&=&format=webp&width=266&height=473" alt="">
+                    </div>
+                    <div class="text-center py-5">
+                        <h1 class="font-extrabold text-5xl">2 lumitos</h1>
+                        <p class="text-base">Tuins/Nyes/Noviecitos</p>
+                    </div>
+                </div>
+                <!-- IMAGES -->
+                <div class="flex justify-center">
+                    <div class="w-44 flex justify-center py-5 gap-3">
+                        <img class="w-40" src="https://media.discordapp.net/attachments/989408543369199626/1274599870950539275/IMG_8868.png?ex=66e5c6e2&is=66e47562&hm=2bd4820c1b3a911086cf9ce10557896aa000b9146f6aeea886be3f1d3fa45b88&=&format=webp&quality=lossless&width=274&height=472" alt="">
+                        <img class="w-40 object-cover" src="https://media.discordapp.net/attachments/989408543369199626/1284347478350630913/2E7414EA-0BF6-47E0-AB6C-4E55F14C47D4.jpg?ex=66e64d4c&is=66e4fbcc&hm=08188ac3fd9ab73f487421a3c5ba0c0933532138b34e45f89f4fcdc602d4c2cb&=&format=webp&width=355&height=473" alt="">
+                        <img class="w-40 object-cover" src="https://media.discordapp.net/attachments/989408543369199626/1284347625797189692/IMG_9588.png?ex=66e64d70&is=66e4fbf0&hm=c7f04ae71dc63e6f4feedf39404f46cfa06052580c8c4dd0a888a47025a67aa1&=&format=webp&quality=lossless&width=478&height=473" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <!-- FOURTH -->
+    <div class="w-full h-[100vh] z-0 relative">
+        <!-- BACKGROUND -->
+        <img class="w-full h-full object-cover" src="abra.PNG" alt="">
+        <div class="absolute top-0 w-full h-full flex justify-center items-center">
+            <!-- COUNTER -->
+            <div class="flex bg-neutral-100 gap-5 relative border-2 z-10 border-black flex-col px-5 pb-3 shadow-md pt-9 rounded-md">
+                <!-- GIFS -->
+                <div class="absolute top-1 right-1 w-7">
+                    <img class="w-full" src="heart.svg" alt="">
+                </div>
+                <div class="absolute -top-20 -left-56 w-44">
+                    <img class="w-full -rotate-6" src="https://media.tenor.com/dg7Th23TzFUAAAAi/cat_-vodk.gif" alt="">
+                </div>
+                <div class="absolute -bottom-3 -right-52 w-44">
+                    <img class="w-full" src="https://media.tenor.com/LrSL7XDKVbgAAAAi/peachcat-cat.gif" alt="">
+                </div>
+                <div class="absolute top-[-8rem] z-0 right-28 w-36">
+                    <img class="w-full" src="https://media.tenor.com/A5VhCveZ_ygAAAAi/peach-and-goma-peach-goma.gif" alt="">
+                </div>
+                <div class="absolute -bottom-48 z-0 left-16 w-40">
+                    <img class="w-full" src="https://media.tenor.com/ewJrc9fZeaQAAAAi/prots-masaj.gif" alt="">
+                </div>
+
+                <!-- DATE COUNTER -->
+                <div class="flex gap-5" id="myCountdown">
+                    <div class="bg-transparent border-2 border-black rounded-md w-40 h-52 flex justify-center items-center flex-col gap-10">
+                        <h1 id="years" class="text-6xl font-bold">0</h1>
+                        <p class="font-bold text-xl text-red-700">Year</p>
+                    </div>
+                    <div class="bg-transparent border-2 border-black rounded-md w-40 h-52 flex justify-center items-center flex-col gap-10">
+                        <h1 id="months" class="text-6xl font-bold">0</h1>
+                        <p class="font-bold text-xl text-red-700">Months</p>
+                    </div>
+                    <div class="bg-transparent border-2 border-black rounded-md w-40 h-52 flex justify-center items-center flex-col gap-10">
+                        <h1 id="days" class="text-6xl font-bold">0</h1>
+                        <p class="font-bold text-xl text-red-700">Days</p>
+                    </div>
+                 
+                </div>
+                <h1 class="text-center font-bold text-base">Novios desde junio 19, 2024</h1>
+            </div>
+
+
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+            envelope.classList.toggle('open');
+        });
+    </script>
+    
+    <script src="app.js"></script> 
+</body>
+</html>
+
